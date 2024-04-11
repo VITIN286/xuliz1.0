@@ -488,139 +488,74 @@ footer{
     max-height: 1000px; /* Define a altura máxima para mostrar o conteúdo */
 }
 
+@media screen and (max-width: 1020px) {
 
-/*RESPONSIVIDADE*/
+    /*CABEÇALHO*/
+    nav ul li{
+        display: none;
+    }
 
-/* Para telas menores que 921px */
-@media only screen and (max-width: 920px) {
-    .container>img {
+    .nav{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .container>img{
         width: 300px;
         height: 300px;
     }
 
-    .container2>img {
-        width: 100px;
-        height: 100px;
+    .container2{
+        flex-direction: column;
     }
 
-    .container3>h2 {
-        font-size: 25px;
-    }
-
-    #cartoes>img {
-        width: 100%;
-        height: auto;
-    }
-
-    .sub-list>p {
+    .sub-list{
         font-size: 10px;
     }
 
-    .list3 {
+    .list3{
         flex-direction: column;
     }
 
-    .container3#title2 {
-        width: 200px;
+    #sub-title h3{
+        text-align: center;
     }
 
-    #list4>p {
-        font-size: 12px;
+    #cartoes img{
+        width: 350px;
+        height: 110px;
     }
 
-    #list5>button {
-        font-size: 12px;
+
+    #maquininha2 img{
+        width: 350px;
     }
 
-    .rodape {
+    .container5{
         flex-direction: column;
-        align-items: center;
-        padding: 20px;
     }
-}
 
-
-/* Para telas menores que 375px */
-@media only screen and (max-width: 375px) {
-
-    /* Diminuir o tamanho das imagens dentro da classe 'container' */
-    .container img {
+    #social-apps{
         display: none;
-    }
-
-    /* Diminuir o tamanho das imagens dentro da classe 'container2' */
-    .container2 img {
-        max-width: 800px; /* Defina o tamanho máximo desejado para as imagens */
-        height: auto; /* Mantém a proporção da imagem */
-    }
-
-     /* Diminuir o tamanho da navegação */
-     nav {
-        font-size: px; /* Reduzir o tamanho da fonte */
-        padding: 0px; /* Reduzir o preenchimento */
-        margin: 0px; /* Reduzir a margem */
-    }
-
-    nav li {
-        font-size: 12px; /* Reduzir o tamanho da fonte */
-        flex-wrap: nowrap;
-    }
-
-    nav img {
-        max-width: 50px; /* Defina o tamanho máximo desejado para a imagem */
-        height: auto; /* Mantém a proporção da imagem */
-    }
-
-    nav {
-        margin: 0; /* Remover todas as margens */
-        height: 50px;
-    }
-
-    /* Ocultar os botões da navegação */
-    .nav button {
-        display: none;
-    }
-
-    /* Diminuir o tamanho das imagens dentro do container3 */
-    .container3 img {
-        max-width: 250px; /* Defina o tamanho máximo desejado para as imagens */
-        height: auto; /* Mantém a proporção da imagem */
-    }
-
-    /* Alterar a disposição do container2 para coluna */
-    .container2 {
-        flex-direction: column;
-        align-items: center; /* Opcional: centraliza os itens na coluna */
-    }
-
-    header p {
-        font-size: 12px; /* Defina o tamanho de fonte desejado */
-    }
-
-    nav p{
-        font-size: 12px; /* Defina o tamanho de fonte desejado */
-    }
-
-    .container5 {
-        flex-direction: column;
-        align-items: center; /* Opcional: centraliza os itens na coluna */
-    }
-
-    footer {
-        font-size: 5px; /* Definir o tamanho da fonte desejado */
     }
 
     #suporte {
-        font-size: 10px; /* Defina o tamanho da fonte desejado */
-    }
-
-    #copy {
-        font-size: 10px; /* Defina o tamanho da fonte desejado */
-    }
-
-    #social-apps {
         display: none;
     }
 
-}
+    .rodape{
+        display: none;
+    }
 
+    #copy{
+        font-size: 10px;
+        background-color: #262626;
+    }
+
+    nav ul img {
+        border: none; /* Remove a borda da imagem */
+    }
+}
