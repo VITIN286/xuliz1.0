@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    background-color: #262626;
+    color: white;
+}
+
+ul>img{
+    border-right: solid 1px;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    margin-right: 25px;
+}
+
+ul>li{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav{
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav>button{
+    color: #faf0d6;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#bt1{
+    background-color: #faf0d6;
+    border: none;
+}
+
+#bt2{
+    background-color: #262626;
+    border: solid 1px;
+    border-color: #faf0d6;
+}
+
+
+#bt2>a{
+    color: #faf0d6;
+}
+
+button>a{
+    color: #262626;
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container>img{
+    width: 440px;
+    height: 440px;
+}
+
+.colum{
+    margin: 20px;
+}
+.colum>h2{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #faf0d6
+}
+
+.colum>p{
+    margin: 20px;
+    color: #faf0d6
+}
+
+.list-colum{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+#list1>p{
+    margin: 10px;
+}
+
+#list2>p{
+    margin: 10px;
+}
+
+.center-bt{
+    width: 358px; 
+    height: 125px;
+    margin: 10px;
+}
+
+.center-bt>button{
+    width: 225px; 
+    height: 40px;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: #3a3a3a;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #faf0d6;
+}
+
+/*Icons*/
+
+#baixo{
+    color: #faf0d6;
+    width: 14px;
+    margin-left: 4px;
+}
+
+#lado{
+    width: 14px
+}
+
+#pix{
+    width: 14px 
+}
+
+#taxas{
+    width: 14px 
+}
+
+#automatic{
+    width: 14px 
+}
+
+#parcela{
+    width: 14px 
+}
+
+
+/*MAIN*/
+
+.main{
+    text-align: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+#sub-title{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#sub-title>h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #262626;
+}
+#cartoes{
+    margin: 10px;
+    padding: 10px;
+}
+
+#cartoes>img{
+    width: 520px;
+    height: 130px;
+}
+
+.sub-list{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(140, 158, 152, 0.123);
+}
+
+.sub-list>p{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.container3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #262626;
+    color: #faf0d6;
+}
+
+.container3>h2{
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container3>p{
+    margin: 5px;
+    text-align: center;
+}
+
+.list3{
+   padding: 10px;
+   display: flex;
+   margin: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.container3#title2{
+    width: 300px;
+}
+
+#smartpay{
+    width: 300px;
+}
+
+#propay{
+    width: 200px;
+}
+
+#title2>p{
+    margin: 10px;
+    color: #faf0d6;
+}
+
+#list-ul{
+    margin: 10px;
+}
+
+#list-ul>li{
+    margin: 10px;
+    color: #faf0d6;
+}
+
+#size-title2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#title2>button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #faf0d6;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px;
+}
+
+
+#list4{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+#list4>h2{
+    margin: 10px;
+    font-weight: bold;
+}
+
+#list4>p{
+    margin: 10px;
+    color: #3a3a3a;
+}
+
+#list4>button{
+    padding: 10px;
+    margin: 20px;
+    background-color: #262626;
+    color: #faf0d6;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(53, 57, 65, 0.041);
+}
+
+#title5{
+    margin: 20px;
+    padding: 5px;
+    margin-left: 20%;
+}
+
+#title5>h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#title5>p{
+    color: #3a3a3a;
+}
+
+#list5{
+    margin: 20px;
+}
+
+#list5>button{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+/*Rodape*/
+
+footer{
+    background-color: #262626;
+    color: #faf0d6;
+}
+
+.rodape{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 50px;
+}
+
+#social-apps{
+    padding: 20px;
+}
+
+#social-apps>button{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #262626;
+    border: solid 1px;
+    border-color: #faf0d6;
+    border-radius: 3px;
+    color: #faf0d6;
+    cursor: pointer;
+}
+
+#social-apps>button>a{
+    color: #faf0d6;
+    font-size: 15px;
+}
+
+
+#social-apps>h4{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+#suporte{
+    display: flex;
+}
+
+#list6{
+    padding: 20px;
+}
+
+#list6>h4{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#list7{
+    padding: 20px;
+}
+
+#list7>h4{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#list8{
+    padding: 20px;
+}
+
+#list8>h4{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#copy>img{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Estilos para o acordeão */
+.accordion {
+    max-width: 600px; /* Define a largura máxima do acordeão */
+    margin: 0 auto; /* Centraliza o acordeão na página */
+    margin-top: 30px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior a cada item */
+    margin: 10px;
+}
+
+.accordion-header {
+    background-color: #f4f4f4; /* Cor de fundo do cabeçalho do item */
+    padding: 10px 20px; /* Espaçamento interno do cabeçalho do item */
+    cursor: pointer; /* Muda o cursor para uma mão quando passa sobre o cabeçalho */
+}
+
+.accordion-content {
+    max-height: 0; /* Oculta o conteúdo inicialmente */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse a altura máxima */
+    transition: max-height 0.3s ease; /* Adiciona uma transição suave à altura máxima */
+}
+
+.accordion-content p {
+    margin: 0; /* Remove as margens padrão dos parágrafos */
+    padding: 10px 20px; /* Espaçamento interno do conteúdo */
+}
+
+/* Estilos para o cabeçalho ativo */
+.accordion-item.active .accordion-content {
+    max-height: 1000px; /* Define a altura máxima para mostrar o conteúdo */
+}
+
+
+/*RESPONSIVIDADE*/
+
+/* Para telas menores que 921px */
+@media only screen and (max-width: 920px) {
+    .container>img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container2>img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container3>h2 {
+        font-size: 25px;
+    }
+
+    #cartoes>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sub-list>p {
+        font-size: 10px;
+    }
+
+    .list3 {
+        flex-direction: column;
+    }
+
+    .container3#title2 {
+        width: 200px;
+    }
+
+    #list4>p {
+        font-size: 12px;
+    }
+
+    #list5>button {
+        font-size: 12px;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+
+/* Para telas menores que 375px */
+@media only screen and (max-width: 375px) {
+
+    /* Diminuir o tamanho das imagens dentro da classe 'container' */
+    .container img {
+        display: none;
+    }
+
+    /* Diminuir o tamanho das imagens dentro da classe 'container2' */
+    .container2 img {
+        max-width: 800px; /* Defina o tamanho máximo desejado para as imagens */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+     /* Diminuir o tamanho da navegação */
+     nav {
+        font-size: px; /* Reduzir o tamanho da fonte */
+        padding: 0px; /* Reduzir o preenchimento */
+        margin: 0px; /* Reduzir a margem */
+    }
+
+    nav li {
+        font-size: 12px; /* Reduzir o tamanho da fonte */
+        flex-wrap: nowrap;
+    }
+
+    nav img {
+        max-width: 50px; /* Defina o tamanho máximo desejado para a imagem */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    nav {
+        margin: 0; /* Remover todas as margens */
+        height: 50px;
+    }
+
+    /* Ocultar os botões da navegação */
+    .nav button {
+        display: none;
+    }
+
+    /* Diminuir o tamanho das imagens dentro do container3 */
+    .container3 img {
+        max-width: 250px; /* Defina o tamanho máximo desejado para as imagens */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    /* Alterar a disposição do container2 para coluna */
+    .container2 {
+        flex-direction: column;
+        align-items: center; /* Opcional: centraliza os itens na coluna */
+    }
+
+    header p {
+        font-size: 12px; /* Defina o tamanho de fonte desejado */
+    }
+
+    nav p{
+        font-size: 12px; /* Defina o tamanho de fonte desejado */
+    }
+
+    .container5 {
+        flex-direction: column;
+        align-items: center; /* Opcional: centraliza os itens na coluna */
+    }
+
+    footer {
+        font-size: 5px; /* Definir o tamanho da fonte desejado */
+    }
+
+    #suporte {
+        font-size: 10px; /* Defina o tamanho da fonte desejado */
+    }
+
+    #copy {
+        font-size: 10px; /* Defina o tamanho da fonte desejado */
+    }
+
+    #social-apps {
+        display: none;
+    }
+
+}
+
