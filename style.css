@@ -84,6 +84,11 @@ ul>li{
     color: #faf0d6;
 }
 
+#bt1>a{
+    font-weight: bold;
+}
+
+
 button>a{
     color: #262626;
     font-size: 12px;
@@ -128,6 +133,14 @@ button>a{
 
 #list2>p{
     margin: 10px;
+}
+
+#list1>p>img{
+    margin-right: 10px;
+}
+
+#list2>p>img{
+    margin-right: 10px;
 }
 
 .center-bt{
@@ -213,13 +226,22 @@ button>a{
 .sub-list{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     background-color: rgba(140, 158, 152, 0.123);
 }
 
 .sub-list>p{
     display: inline-block;
+    align-items: center;
     margin-right: 15px;
+    font-weight: bold;
+}
+
+.sub-list>p>img{
+    align-items: center;
+    margin-right: 10px;
+    width: 20px;
 }
 
 .container3{
@@ -391,6 +413,16 @@ footer{
     cursor: pointer;
 }
 
+#social-apps>button>img{
+    align-items: center;
+    margin-right: 10px;
+}
+
+#social-apps>button>a>img{
+    align-items: center;
+    margin-right: 10px;
+}
+
 #social-apps>button>a{
     color: #faf0d6;
     font-size: 15px;
@@ -457,43 +489,43 @@ footer{
 
 /* Estilos para o acordeão */
 .accordion {
-    max-width: 600px; /* Define a largura máxima do acordeão */
-    margin: 0 auto; /* Centraliza o acordeão na página */
+    max-width: 600px; 
+    margin: 0 auto; 
     margin-top: 30px;
 }
 
 .accordion-item {
-    border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior a cada item */
+    border-bottom: 1px solid #ccc; 
     margin: 10px;
 }
 
 .accordion-header {
-    background-color: #f4f4f4; /* Cor de fundo do cabeçalho do item */
-    padding: 10px 20px; /* Espaçamento interno do cabeçalho do item */
-    cursor: pointer; /* Muda o cursor para uma mão quando passa sobre o cabeçalho */
+    background-color: #ffffff; 
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .accordion-content {
-    max-height: 0; /* Oculta o conteúdo inicialmente */
-    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse a altura máxima */
-    transition: max-height 0.3s ease; /* Adiciona uma transição suave à altura máxima */
+    max-height: 0; 
+    overflow: hidden;
+    transition: max-height 0.3s ease;
 }
 
 .accordion-content p {
-    margin: 0; /* Remove as margens padrão dos parágrafos */
-    padding: 10px 20px; /* Espaçamento interno do conteúdo */
+    margin: 0;
+    padding: 10px 20px;
 }
 
 /* Estilos para o cabeçalho ativo */
 .accordion-item.active .accordion-content {
-    max-height: 1000px; /* Define a altura máxima para mostrar o conteúdo */
+    max-height: 1000px;
 }
 
 @media screen and (max-width: 1020px) {
 
     body {
         margin-top: 0;
-        overflow-x: hidden; /* Impede a rolagem horizontal */
+        overflow-x: hidden;
     }
 
     /*CABEÇALHO*/
@@ -575,6 +607,6 @@ footer{
     }
 
     nav ul img {
-        border: none; /* Remove a borda da imagem */
+        border: none;
     }
 }
